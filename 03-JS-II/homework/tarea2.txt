@@ -1,0 +1,13 @@
+FOR: for es un flujo de control (statement) que reaciona como un bucle de codigo 
+el mismo me va  a ayudar a repetir un bloque de codigo muchas veces( tiene 3 partes,
+la primera es la variable que va a usar para contar la cantidad de repeticiones que van haciendo,
+la segunda tiene una condición de frenado seria cuando uno quiere que deje de ejecutarce,
+y tercero se tiene lo que se llama el paso, que es como se quiere que se vaya incrementando dicho valor.
+ luego de ello  entre llaves { } va a estar el bloque de  codigo que queremos que se repita.
+
+
+&& AND (y); || OR (o); ! NOT (no) : son operadores logicos que de acuerdo a su estructura de sus componentes nos proporcionan
+una respueta TRUE o FALSE.es decir Boleano
+Para que AND && sea True, todos los valores en cuestión tienen que ser True, de lo contrario si uno de ellos es False, la respuesta sera False.
+Para que OR || sea True unos de los valores en cuestión tiene que ser True, solo sera Fase si todos los valores en cuestión son False.
+NOT ! me niega el valor de True o de False, por lo tanto lo que hace es darlo vuelta.

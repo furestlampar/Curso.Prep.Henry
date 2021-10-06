@@ -1,0 +1,51 @@
+VARIABLE: una variable es algo donde se guarda un dato para luego poder recuperarlo,
+ a esto nos referimos, a que es un nombre identificatorio definido por nosotros, que al llamarlo posteriormente, nos proporcionara
+ lo que le hayamos asignado adentro de el. con ellas podemos:
+ - Guardar datos y estados.
+ - Asignar valores de una variable a otra.
+ - Representar valores dentro de una expresión matemática.
+ - Mostrar valores de pantalla.
+El nombre de la variable pueden ser letras, números y el simbolo_ . con los soguientes limites:
+- No puede tener espacios
+- No empezar con un número
+- No puede ser una palabra reservada del lenguaje. (EJ: if; for; var)
+- algunos lenguajes pueden permitir empezar con carácter especial, como ( $ )
+
+Otra cosa a tener en cuenta es que hay lenguajes que distinguen mayúsculas y minúsculas.
+ Eso se llama case sensitive.
+
+Todas las variables deben ser de un tipo de datos, ya sea un dato de tipo primitivo,
+ como un número o texto, o un dato abstracto, como un objeto que se ha creado.
+
+Tipo de dato → identificador variable → valor almacenado.
+
+
+STRINGS: una string en un tipo de dato que se compone por una cadena de caracteres, palablas, frases; que sirven para crear
+bloques de texto o simplemente palabras, las mismas siempre se componen entre comillas, (EJ: 'esto es un string') .
+
+FUNCIONES: una funcion lo que hace basicamene es agrupar codigo para luego poder ejecutarlo en algun lugar.
+la misma esta compuesta por el nombre de la funcion y a continuecion dos parentesis() en los cuales puede ir o no, un o mas argumentos que
+seran utilizados, luego de ello todo el codigo a desarrollar dentro de la fucnion se colocara dentro de dos llaves {} .
+
+ARGUMENTOS: los argumentos son los parametros de la funcion que representan una lista de variables que seran 
+utilizadas dentro del codigo a ejecutar.Por lo tanto son un conjunto de expresiones que se emplean para pasar 
+información a las funciones.
+
+RETURN: lo que hace la declaracion return dentro de la funcion es devolver el valor que es asignado a retur y alli cortar
+la lectura de la funcion.
+
+DECLARACIONES IF : Flujo de control: if se utiliza para la comprobacion de una expresión, luego de ello ejecuta un comando si el contenido de dicha expresión,
+corresponde a una declaracion TRUE(verdadera), en otras palabras el if vendria a igualar a un SI,
+ Ej: //SI, if  //dos es menor que 3,(2 < 3); //el siguiente codigo sera ejecutado { return ('es correcto'); } 
+ caso contrario, en este caso nos aparecera undefined, ya que no estaria definido el valor a la respuesta porue es FALSE(faslo)
+ lo que se podria hacer es establecer un retorno en caso contrario, para eso usariamos el (else)
+EJ:
+function compararnumero(n){
+if (n < 100) { return 'es menor' }
+else { return 'es mayor' }
+}
+
+VALORES BOLEANOS: TRUE O FALSE
+En JavaScript una variable es booleana si se le asigna como contenido true ó false. 
+Estas variables se usan para almacenar información del tipo sí / no, cumple / no cumple, verdadero / falso, existe /
+no existe, es decir, información que únicamente puede tener dos estados.
