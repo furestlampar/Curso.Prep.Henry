@@ -1,0 +1,19 @@
+OBJETOS : los objetos son similares a los arrays con la diferencia que estos contienen infrmacion sobre una sola cosa
+estas cosas estan compuestas por un key:value, que vendria a ser la propiedad y el valor de dicha propiedad. por lo tanto
+es una coleccion de propiedades.
+
+PROPIEDADES: las propiedades son como dijimos el identifivador de dicho valor, esta nos sirve para llamar a dicho valor
+al que hace referencia el objeto, por lo tanto una propiedad es la asociación entre un nombre(o clave) y un valor.
+
+METODOS:son las funciones a las que se les llama metodos, las funciones dentro de los objetos.
+podemos llamar a un metodo con argumentos como lo haciamos con una funcion normal.
+
+BUCLE FOT...IN : es un bulce similar al For convencional, que se utuliza para recorrer todas las claves/key de las propiedades del
+objeto, se utiliza entre parentesis creando una variable, luego la clave IN seguido del nombre del objeto en cuestion.
+
+NOTACIÓN DE PUNTOS, NOTACIÓN DE CORCHETES : son dos formas de acceder a las propiedades de los objetos.
+ Con la notación de puntos podemos llamar al nombre del objeto, un punto y el nombre de la clave,
+ La notación de corchetes es como llamar a un elemento en una matriz, aunque con corchetes debemos 
+ usar una cadena o número, o una variable que apunte a una cadena o número. Se puede llamar a cada clave 
+ envolviéndola con comillas, o en caso de que sea una propiedad que depende de un argumento de una variable,
+ se coloca sin comillas, ya que nos referimos a una variable.
